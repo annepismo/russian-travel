@@ -1,0 +1,25 @@
+/*2 Секция. Чево мы там не видели*/
+
+.info {
+  max-width: 690px;
+  padding: 92px 0 92px 148px;
+}
+
+@media(max-width: 1279px) {
+  .info {
+    padding: 92px 0 92px 48px;
+  }
+}
+
+@media(max-width: 1023px) {
+  .info {
+    padding: 88px 24px 88px 24px;
+    max-width: 720px;
+  }
+}
+
+@media(max-width: 767px) {
+  .info {
+    padding: 64px 16px 64px 16px;
+  }
+}

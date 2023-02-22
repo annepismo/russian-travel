@@ -1,0 +1,17 @@
+.place__link {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  max-width: 484px;
+  margin: 0;
+}
+
+/*при наведении мыши ссылка плавно становится немного прозрачнее*/
+.place__link:hover {
+  transition: opacity .5s ease;
+  opacity: 0.6;
+}

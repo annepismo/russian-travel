@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between; /*выравнивание по горизонтали, элементы в контенере прижымаются к левому и правому краю*/
+  align-items: flex-end; /*выравнивание по вертикали, элементы в контейнере прижимаются к нижнему краю*/
+  max-width: 1184px;
+  padding: 28px 48px 56px 48px;
+}
+
+
+@media (max-width: 1279px) {
+  .header {
+    min-width: 928px;
+    padding: 28px 48px 48px 48px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .header {
+    min-width: 720px;
+    padding: 28px 24px 48px 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    min-width: 288px;
+    min-height: 42px;
+    padding: 16px 16px 48px 16px;
+  }
+}

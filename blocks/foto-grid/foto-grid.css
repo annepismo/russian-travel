@@ -1,0 +1,28 @@
+/*3 секция Фотогрид*/
+.foto-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 4fr));
+  gap: 16px;
+  max-width: 1184px;
+  padding: 0 48px 0 48px;
+}
+
+@media(max-width: 1279px) {
+.foto-grid {
+gap: 14px;
+  }
+}
+
+@media(max-width: 1023px) {
+  .foto-grid {
+  padding: 0 24px 0 24px;
+  gap: 16px;
+  }
+}
+
+@media(max-width: 767px) {
+  .foto-grid {
+    padding: 0 16px 0 16px;
+    gap: 16px 14px;
+    }
+}

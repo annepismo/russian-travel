@@ -1,0 +1,17 @@
+.lead__imeg {
+  max-width: 984px;
+  max-height: 615px;
+  padding: 0 0 8px 0;
+}
+
+@media(max-width: 1279px) {
+  .lead__imeg {
+    width: calc(100vw - 2*48px); /*для плавного изменения картинки на разных экранахю 100vw-вся ширина экрана минус боковые отступы*/
+  }
+}
+
+@media(max-width: 1023px) {
+  .lead__imeg {
+    width: 100%;
+    }
+}

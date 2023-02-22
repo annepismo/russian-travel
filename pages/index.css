@@ -1,0 +1,37 @@
+@import url(../vendor/normalize.css); /*подключение стилей*/
+@import url(../vendor/fonts/fonts.css); /*подключение шрифтов*/
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);  /*шапка*/
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-links/header__lang-links.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_text-decoration/header__lang-link_text-decoration.css);
+@import url(../blocks/lead/lead.css); /*1 Cекция. Путешествия по России*/
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__imeg-caption/lead__imeg-caption.css);
+@import url(../blocks/lead/__imeg/lead__imeg.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+@import url(../blocks/info/info.css);  /*2 Секция. Чево мы там не видели*/
+@import url(../blocks/info/__title/info__title.css);
+@import url(../blocks/info/__text/info__text.css);
+@import url(../blocks/info/__lists/info__lists.css);
+@import url(../blocks/info/__list/info__list.css);
+@import url(../blocks/info/__list-wight/info__list-wight.css);
+@import url(../blocks/foto-grid/foto-grid.css);  /*3 Секция. Фотогрид*/
+@import url(../blocks/foto-grid/__item/foto-grid__item.css);
+@import url(../blocks/places/places.css);/*4 Секция. Подробнеее о местах с картинкой и текстом*/
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/place__title/place__title.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__paragraphs/place__paragraphs.css);
+@import url(../blocks/cover/cover.css);/*5 Секция. Фото с поездами и затемнением при  наведении мыши*/
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/footer/footer.css); /*Подвал*/
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
