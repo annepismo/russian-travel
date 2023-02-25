@@ -3,7 +3,6 @@
   max-height: 460px;
   grid-area: image;
   margin: 0;
-  display: block;
   /* подгоним картинки под размеры */
   object-fit: cover;
   width: 100%;
@@ -31,8 +30,9 @@
   }
 }
 
-@media(max-width: 321px) {
+@media(max-width: 351px) {
   .place__image {
   padding: 0;
+  margin: auto;
   }
 }

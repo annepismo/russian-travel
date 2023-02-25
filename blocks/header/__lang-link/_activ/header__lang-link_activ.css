@@ -1,0 +1,3 @@
+.header__lang-link_activ { /*булевый модификатор использовала для подчеркивания Ru*/
+  text-decoration: underline;
+}

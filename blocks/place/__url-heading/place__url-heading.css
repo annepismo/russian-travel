@@ -3,16 +3,12 @@
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.7;
-  letter-spacing: 2px; /*что это????*/
+  line-height: 1;
+  letter-spacing: 2px;
   color: #AAAAAA;
+  text-transform: uppercase;
   padding: 0 0 12px 0;
   max-width: 484px;
   margin: 0;
 }
 
-@media(max-width: 767px) {
-  .place__url-heading{
-    line-height: 1;
-  }
-}

@@ -14,7 +14,7 @@
 @media(max-width: 767px) {
   .lead__title {
   font-size: 40px;
-  line-height: 1;
+  line-height: 1.1;
   width: calc(100% - 2*16px);
   padding: 0 0 16px 0;
   }

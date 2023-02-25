@@ -10,21 +10,20 @@
     <!--мета тег с указанием автора сайта-->
     <meta name="author" content="Устюхина Анна при поддержке Яндекс Практикум">
     <!--подключаем файл со стилями-->
-    <link rel="stylesheet" href="./vendor/normalize.css">
     <link rel="stylesheet" href="./pages/index.css">
     <!--задаем имя во вкладке браузера-->
     <title>Путешествие по России</title>
   </head>
   <!--начало видимой части сайта-->
-  <body>
+  <body class="project">
     <div class="page">
       <!--ШАПКА-->
       <header class="header">
         <img src="./images/header-logo.svg" alt="Миниатюрная карта России" class="header__logo">
-        <nav class="header__lang-links">
-            <a href="#" class="header__lang-link  header__lang-link_text-decoration">Ru</a>
+        <div class="header__lang-links">
+            <a href="#" class="header__lang-link  header__lang-link_activ">Ru</a>
             <a href="#" class="header__lang-link">En</a>
-        </nav>
+        </div>
       </header>
       <main>
         <!--1 Секция. Путешествие по России-->
@@ -69,7 +68,7 @@
             <h2 class="place__title">Куршская коса</h2>
             <img src="./images/place-kosa.jpg" alt="Водный горизонт" class="place__image">
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <p class="place__url-heading">url</p>
               <a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
             </div>
             <div class="place__paragraphs">
@@ -81,7 +80,7 @@
             <h2 class="place__title">Кольский</h2>
             <img src="./images/place-kolsky.jpg" alt="Снега Кольского полуострова" class="place__image">
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <p class="place__url-heading">url</p>
               <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link">National Geographic</a>
             </div>
             <div class="place__paragraphs">
@@ -93,7 +92,7 @@
             <h2 class="place__title">Алтай</h2>
             <img src="./images/place-altai.jpg" alt="Сосны Алтая" class="place__image">
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <p class="place__url-heading">url</p>
               <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" class="place__link">YouTube</a>
             </div>
             <div class="place__paragraphs">
@@ -105,7 +104,7 @@
             <h2 class="place__title">Зимний байкал</h2>
             <img src="./images/place-winter-baikal.jpg" alt="Прозрачный толстый лед Байкала" class="place__image">
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <p class="place__url-heading">url</p>
               <a href="https://vk.com/baikalmile" class="place__link">https://vk.com/baikalmile</a>
             </div>
             <div class="place__paragraphs">
@@ -117,7 +116,7 @@
             <h2 class="place__title">Карелия</h2>
             <img src="./images/place-karelia.jpg" alt="Лиственный лес на берегу озера в Карелии" class="place__image">
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <p class="place__url-heading">url</p>
               <a href="http://vodlozero.ru" class="place__link">http://vodlozero.ru/</a>
             </div>
             <div class="place__paragraphs">
@@ -126,22 +125,23 @@
           </div>
         </section>
         <!--5 Секция. Фото с поездами и затемнением при  наведении мыши-->
-        <section  class="cover">
-          <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__overlay"></a>
+        <section class="cover">
+          <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__overlay">
             <h2 class="cover__title">До Байкала «на собаках»</h2>
             <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-          </section>
-        <section class="footer">
-          <ul class="footer__links">
+          </a>
+        </section>
+      </main>
+        <footer class="footer">
+          <nav class="footer__links">
             <li><a href="https://yandex.ru/maps" class="footer__link">Карты</a></li>
             <li><a href="https://yandex.ru/pogoda" class="footer__link">Погода</a></li>
             <li><a href="https://rasp.yandex.ru" class="footer__link">Расписание</a></li>
             <li><a href="https://calendar.yandex.ru" class="footer__link">Календарь</a></li>
             <li><a href="https://travel.yandex.ru" class="footer__link">Путешествия</a></li>
-          </ul>
+          </nav>
           <p class="footer__copyright">&copy; 2023. Устюхина Анна.</p>
-        </section>
-      </main>
+        </footer>
     </div>
   </body>
 </html>

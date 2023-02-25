@@ -1,11 +1,12 @@
 @import url(../vendor/normalize.css); /*подключение стилей*/
 @import url(../vendor/fonts/fonts.css); /*подключение шрифтов*/
+@import url(../blocks/project/project.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);  /*шапка*/
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__lang-link/_text-decoration/header__lang-link_text-decoration.css);
+@import url(../blocks/header/__lang-link/_activ/header__lang-link_activ.css);
 @import url(../blocks/lead/lead.css); /*1 Cекция. Путешествия по России*/
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
@@ -22,13 +23,15 @@
 @import url(../blocks/foto-grid/__item/foto-grid__item.css);
 @import url(../blocks/places/places.css);/*4 Секция. Подробнеее о местах с картинкой и текстом*/
 @import url(../blocks/place/place.css);
-@import url(../blocks/place/place__title/place__title.css);
+@import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__paragraphs/place__paragraphs.css);
+@import url(../blocks/place/place__paragraph/place__paragraph.css);
 @import url(../blocks/cover/cover.css);/*5 Секция. Фото с поездами и затемнением при  наведении мыши*/
+@import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/footer/footer.css); /*Подвал*/

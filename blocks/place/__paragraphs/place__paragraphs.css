@@ -18,30 +18,9 @@
   }
 }
 
-@media(max-width: 767px) {
+@media(max-width: 650px) {
   .place__paragraphs {
     padding: 0 16px 0 16px;
   }
 }
 
-.place__paragraph {
-  padding: 0 0 26px 0;
-  margin: 0;
-}
-
-.place__paragraph:last-child {
-  padding-bottom: 0;
-}
-
-
-@media(max-width: 1279px) {
-  .place__paragraph {
-    padding: 0 0 27px 0;
-  }
-}
-
-@media(max-width: 1023px) {
-  .place__paragraph {
-    padding: 0 0 25px 0;
-  }
-}
