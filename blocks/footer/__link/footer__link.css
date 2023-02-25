@@ -7,17 +7,7 @@
   color: #FFFFFF;
   text-decoration: none;
   transition: opacity .5s ease; /*при наведении мыши ссылка плавно становится немного прозрачнее*/
-}
-
-@media(max-width: 560px) {
-  .footer__link {
-    margin: 0 0 32px 0;
-  }
-}
-
-/*при наведении мыши ссылка плавно становится немного прозрачнее*/
-.footer__link:hover {
-  opacity: 0.6;
+  margin: 0;
 }
 
 @media(max-width: 560px) {
@@ -25,4 +15,9 @@
     font-size: 24px;
     line-height: 1;
   }
+}
+
+/*при наведении мыши ссылка плавно становится немного прозрачнее*/
+.footer__link:hover {
+  opacity: 0.6;
 }
