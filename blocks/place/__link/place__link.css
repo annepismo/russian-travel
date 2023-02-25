@@ -6,7 +6,6 @@
   line-height: 1.22;
   text-decoration-line: underline;
   color: #FFFFFF;
-  max-width: 484px;
   margin: 0;
   transition: opacity .5s ease; /*при наведении мыши ссылка плавно становится немного прозрачнее*/
 }

@@ -39,5 +39,12 @@
       "links"
       "image"
       "text1";
+    justify-items: center;
     }
+}
+
+@media(max-width: 321px) {
+  .place {
+    justify-items: start;
+  }
 }

@@ -1,6 +1,4 @@
 .place__image {
-  max-width: 460px;
-  max-height: 460px;
   grid-area: image;
   margin: 0;
   /* подгоним картинки под размеры */
@@ -8,31 +6,17 @@
   width: 100%;
 }
 
-@media(max-width: 1279px) {
-  .place__image {
-  width: 440px;
-  height: 440px;
-  }
-}
 
-@media(max-width: 1023px) {
+@media(max-width: 650px) {
   .place__image {
-  width: 340px;
-  height: 340px;
-  }
-}
-
-@media(max-width: 767px) {
-  .place__image {
-  width: 320px;
-  height: 320px;
-  padding: 0 0 0 16px;
+    width: 320px;
+    height: 320px;
   }
 }
 
 @media(max-width: 351px) {
   .place__image {
-  padding: 0;
-  margin: auto;
+    padding: 0;
+    margin: auto;
   }
 }
